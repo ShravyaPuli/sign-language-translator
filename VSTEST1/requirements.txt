@@ -1,0 +1,42 @@
+# Python Backend Requirements for Real-Time AI Sign Language Generator
+# Install with: pip install -r requirements.txt
+
+# Web Framework
+Flask==3.1.2
+flask-cors==6.0.1
+Werkzeug==3.1.3
+
+# Audio Processing
+PyAudio==0.2.14
+
+# Speech Recognition
+vosk==0.3.45
+SpeechRecognition==3.14.3
+
+# Natural Language Processing
+textblob==0.19.0
+nltk==3.9.2
+
+# Core Dependencies (automatically installed with above packages)
+blinker==1.9.0
+certifi==2025.11.12
+cffi==2.0.0
+charset-normalizer==3.4.4
+click==8.3.1
+colorama==0.4.6
+idna==3.11
+itsdangerous==2.2.0
+Jinja2==3.1.6
+joblib==1.5.2
+MarkupSafe==3.0.3
+pycparser==2.23
+regex==2025.11.3
+requests==2.32.5
+srt==3.5.3
+standard-aifc==3.13.0
+standard-chunk==3.13.0
+tqdm==4.67.1
+typing_extensions==4.15.0
+urllib3==2.5.0
+websockets==15.0.1
+audioop-lts==0.2.2
